@@ -13,8 +13,8 @@ export default function Header() {
         <nav className={css.navbar}>
           <div>
             <div>
-              <a href="index.html">
-                <Logo className={css.logo} />
+              <a href="index.html" className={css.logo}>
+                <Logo className={css.logo_icon} />
               </a>
             </div>
           </div>
