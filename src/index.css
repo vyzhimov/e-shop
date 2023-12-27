@@ -8,10 +8,16 @@
   --bg-color: #fbfaf7;
   --main-color: #252525;
   --secondary-color: #807c77;
+  --third-color: #fff;
   --accent-color: #EF820D;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg-color);
+}
+
+
+.nav_link {
+  @apply block rounded-md p-2 hover:bg-[--accent-color] hover:transition-all hover:duration-300;
 }

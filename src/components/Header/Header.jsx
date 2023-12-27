@@ -6,7 +6,7 @@ import { GrFavorite } from "react-icons/gr";
 import { BsCart4 } from "react-icons/bs";
 import { VscAccount } from "react-icons/vsc";
 
-export default function Header() {
+const Header = () => {
   return (
     <header className=" w-full  bg-[--main-color] px-[10%] py-3">
       <nav className="flex items-center justify-between">
@@ -37,34 +37,22 @@ export default function Header() {
         </form>
         <ul className="flex gap-[20px]">
           <li>
-            <a
-              href="store.html"
-              className="block  p-2 hover:rounded-md hover:bg-[--accent-color] hover:transition-all hover:duration-300"
-            >
+            <a href="store.html" className="nav_link">
               <FaStore className=" text-2xl text-[#fff]" />
             </a>
           </li>
           <li>
-            <a
-              href="favorite.html"
-              className="block  p-2 hover:rounded-md hover:bg-[--accent-color] hover:transition-all hover:duration-300"
-            >
+            <a href="favorite.html" className="nav_link">
               <GrFavorite className=" text-2xl text-[#fff]" />
             </a>
           </li>
           <li>
-            <a
-              href="cart.html"
-              className="block rounded-md  p-2 hover:bg-[--accent-color] hover:transition-all hover:duration-300"
-            >
+            <a href="cart.html" className="nav_link">
               <BsCart4 className="text-2xl text-[#fff]" />
             </a>
           </li>
           <li>
-            <a
-              href="account.html"
-              className="block rounded-md  p-2 hover:bg-[--accent-color] hover:transition-all hover:duration-300"
-            >
+            <a href="account.html" className="nav_link">
               <VscAccount className="text-2xl text-[#fff]" />
             </a>
           </li>
@@ -72,4 +60,6 @@ export default function Header() {
       </nav>
     </header>
   );
-}
+};
+
+export default Header;

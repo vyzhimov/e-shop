@@ -5,13 +5,13 @@ import Glasses from "../../images/glasses.png";
 const Loader = () => {
   return (
     <>
-      <div className="text-loader font-logo relative flex flex-col items-center gap-1">
+      <div className="text-loader relative flex flex-col items-center gap-1 font-logo">
         <span className="letter opacity-25">
           <img
             src={Glasses}
             alt="glassess"
             width="150px"
-            className="opacity-25"
+            className="opacity-50"
           />
         </span>
         <div className="text-container">
