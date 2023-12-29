@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { SharedLayout } from "./components";
 import MainPage from "./pages/MainPage";
-import ErrorPage from "./pages/ErrosPage";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
