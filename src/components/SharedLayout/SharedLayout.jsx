@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 
 const SharedLayout = () => {
   // const [isLoading, setIsLoading] = useState(false);
-  const isLoading = true;
+  const isLoading = false;
 
   return (
     <div>

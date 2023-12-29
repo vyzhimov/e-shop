@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="mr-4 flex items-center">
         <div className="mr-4">
           <p className="text-sm text-[--accent-color]">made by</p>
-          <p className="uppercase text-lime-400">Vyzhymov Oleksandr</p>
+          <p className="uppercase text-lime-400">Vyzhymov</p>
         </div>
         <address className="flex text-[#fff]">
           <a
@@ -19,12 +19,19 @@ export default function Footer() {
           >
             <SiGmail />
           </a>
-          <a className="nav_link text-3xl" href="https://github.com/vyzhimov">
+          <a
+            className="nav_link text-3xl"
+            href="https://github.com/vyzhimov"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <FaGithub />
           </a>
           <a
             className="nav_link text-3xl"
             href="https://www.linkedin.com/in/oleksandr-vyzhymov/"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             <FaLinkedin />
           </a>

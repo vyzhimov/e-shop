@@ -1,6 +1,6 @@
 import React from "react";
 import "./Loader.styles.css";
-import Glasses from "../../images/glasses.png";
+import Glasses from "../../assets/images/glasses.png";
 
 const Loader = () => {
   return (
